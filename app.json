@@ -1,0 +1,22 @@
+{
+  "name": "PlayWithMe",
+  "description": "Telegram Bot to play game",
+  "keywords": [
+    "telegram",
+    "bot",
+    "play",
+    "PlayWithMe"
+  ],
+  "addons": [
+  ],
+  "buildpacks": [
+    {"url": "heroku/python"}
+],
+"formation": {
+    "worker": {
+        "quantity": 1,
+        "size": "free"
+    }
+},
+  "stack": "heroku-20"
+}
